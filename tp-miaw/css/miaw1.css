@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
+
+/* @font-face {
+	src: url("fonts/RobotoCondensed-VariableFont_wght.ttf");
+	font-family: "RobotoCondensed";
+	font-style: normal;
+} */
+* {
+	font-family: "Shadows Into Light", cursive;
+	padding: 0%;
+	margin: 0%;
+}
+
+#container {
+	width: 1400px;
+	margin: auto;
+}
+
+section {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #273877;
+}
+
+figure {
+	width: 30%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 250px;
+}
+img {
+	display: inline-block;
+	height: 200px;
+}
+figcaption {
+	width: 100%;
+	text-align: center;
+}
+@media screen and (max-widht: 1400px) {
+	#container {
+		widht: 100%;
+	}
+}
+@media only screen and (max-widht: 900px) {
+	#container {
+		width: 50%;
+	}
+}
+@media only screen and (max-widht: 450px) {
+	#container {
+		width: 50%;
+	}
+	figure {
+		width: 50%;
+	}
+}
